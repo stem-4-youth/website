@@ -1,5 +1,4 @@
 # website
-die in pumpkin land
-
-
-oh btw the code automatically uploads onto website when we do the pushhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhhh ok great bye
+Hey There!
+Quick Little Note: The code will automatically upload and be published on the website as soon as it is accepted into the main repo aka here. If you have any questions about anything related to hosting feel free to contact Shuban#6198 on discord at any time.
+<3
