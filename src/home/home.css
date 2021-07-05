@@ -1,79 +1,11 @@
-body{
-	font-family: 'Inter', sans-serif;
-	margin: 0;
-	padding: 0;
-	background-color: white;
-} 
-
-/* Container is basically some default styling that I applied to the whole thing */
-.container{
-	width:80%;
-	margin:auto;
-	overflow:hidden;
-	font-weight: 400;
-	text-align: center;
-}
-
-/* This is the header/navigation bar, pretty self explanatory */
-
-
-header{
-	background: #D62246;
-	color: white;
-	padding-top:30px;
-	min-height: 70px;
-	border-bottom: white 5px solid;
-}
-
-header a{
-	color: white;
-	text-decoration: none;
-	font-size:16px;
-}
-
-header ul{
-	padding: 0;
-	margin: 0;
-}
-
-header li{
-	float:left;
-	display:inline;
-	padding: 0 20px 0 20px;
-}
-
-header #logo{
-	float:left;
-}
-
-header #logo h1{
-	margin:0;
-}
-
-header nav{
-	float:right;
-	margin-top: 10px;
-}
-
-/* This part makes it so if you put .highlight or .current it adds these special effects. Currently not being used I'm pretty sure */
-
-header .highlight, header .current{
-	color: #D4F4DD;
-	font-weight: bold;
-}
-
-header a:hover{
-	transition: 0.3s;
-	color:rgb(153, 230, 255);
-}
 
 /* The header image with the zoom clipart */
 
 #showcase{
 	min-height:600px;
-	background-image:
+	background-image: 
     linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(32, 32, 32, 0.8)),
-	url('images/backgroundimage.jpg');
+	url('../images/backgroundimage.jpg');
 	backdrop-filter: blur(100px);
 	text-align:center;
 	color: white;
@@ -255,77 +187,3 @@ footer{
 #apply h1{
 	font-size: xx-large;
 }
-
-/* This is for the about page no idea why it's after the footer... gotta fix some stuff here */
-
-#meettheteam{
-	text-align: center;
-	margin: 20px 70px 0px 70px;
-}
-
-#meettheteam h1{
-	font-weight: 900;
-	font-size: 50px;
-}
-
-#mission h1{
-	font-weight: 900;
-	font-size: 50px;
-}
-
-#mission h4{
-	color:#0E7C7B
-}
-
-/* Three columns side by side */
-.column {
-	float: left;
-	width: 33.3%;
-	margin-bottom: 16px;
-	padding: 0 8px;
-  }
-  
-  /* Display the columns below each other instead of side by side on small screens */
-  @media screen and (max-width: 650px) {
-	.column {
-	  width: 100%;
-	  display: block;
-	}
-  }
-  
-  /* Add some shadows to create a card effect */
-  .card {
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
-  
-  /* Some left and right padding inside the container */
-  .container {
-	padding: 0 16px;
-  }
-  
-  /* Clear floats */
-  .container::after, .row::after {
-	content: "";
-	clear: both;
-	display: table;
-  }
-  
-  .title {
-	color: grey;
-  }
-  
-  .button {
-	border: none;
-	outline: 0;
-	display: inline-block;
-	padding: 8px;
-	color: white;
-	background-color: #000;
-	text-align: center;
-	cursor: pointer;
-	width: 100%;
-  }
-  
-  .button:hover {
-	background-color: #555;
-  }
