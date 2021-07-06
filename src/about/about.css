@@ -1,6 +1,10 @@
 
 /* This is for the about page no idea why it's after the footer... gotta fix some stuff here */
 
+h1 {
+	text-align: center;
+}
+
 #meettheteam{
 	text-align: center;
 	margin: 20px 70px 0px 70px;

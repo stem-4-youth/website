@@ -144,6 +144,8 @@
 }
 
 #numbercounter{
+	text-align: center;
+
 	margin-top: 50px;
 	font-size: xx-large;
 }
