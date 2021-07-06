@@ -1,7 +1,7 @@
 
 /* This is for the about page no idea why it's after the footer... gotta fix some stuff here */
 
-h1 {
+#about h1 {
 	text-align: center;
 }
 
